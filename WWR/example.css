@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(2, 255, 255);
+}
+h1{
+    background-color: chartreuse;
+    padding: 8px;
+    text-align: center;
+}
+p{
+    color: rgb(245, 114, 8);
+}
+.fancy{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+    color: crimson;
+    border: 1px solid black;
+    padding: 10px;
+margin: 40px;
+margin-left: 120px;
+background-color: blanchedalmond;
+}
+#david{
+    width: 100px;
+}
+.superfancy{
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+}
