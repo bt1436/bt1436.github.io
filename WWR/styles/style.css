@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,7 @@ nav a{
 text-align: center;
 color: burlywood;
 text-decoration: none;
+padding: 35px;
 }
 #hero-msg h4{
     text-align: center;
@@ -24,6 +26,9 @@ main section{
 }
 body{
     background-color: darkolivegreen;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: darkolivegreen;
@@ -36,11 +41,19 @@ nav a:hover{
     background-color: burlywood;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color: burlywood;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color:burlywood;
@@ -54,16 +67,22 @@ nav a:hover{
     background-color: darkolivegreen;
 }
 .home-title{
+    font-family: 'Lobster';
     color: burlywood;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: burlywood;
 }
 .msg h2{
     color: burlywood;
+    font-family: 'Lobster';
 }
 .msg p{
     color: burlywood;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3{
     color: burlywood;
@@ -83,7 +102,34 @@ footer a:hover{
 }
 .icon{
     width: 100px;
+    padding-top: 10px;
 }
 footer h3 a:hover{
     text-decoration: underline;
+}
+.msg{
+    line-height: 1.5em;
+    padding: 35px;
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+padding-top: 5px;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img{
+    box-sizing: border-box;
 }
